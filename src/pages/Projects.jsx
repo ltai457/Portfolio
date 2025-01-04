@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import '../styles/project.css';
 import posterImage from '../assets/Poster.png'
-import posterimage1 from'../assets/PosterMusic'
+import posterimage1 from'../assets/PosterMusic.png'
 
 const Projects = () => {
   const projects = [
