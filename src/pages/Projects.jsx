@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import '../styles/project.css';
 import posterImage from '../assets/Poster.png'
+import posterimage1 from'../assets/PosterMusic'
 
 const Projects = () => {
   const projects = [
@@ -13,11 +14,11 @@ const Projects = () => {
       image: posterImage
     },
     {
-      title: "Another Project",
-      description: "Description of another project",
+      title: "Musichat",
+      description: "A website that allow user to listen music and chat",
       role: "Full Stack Developer",
-      technologies: ["NextJS", "Node.js", "MongoDB"],
-      image: "/path-to-another-image.jpg"
+      technologies: ["ReactJS", "Node.js", "MongoDB","SpotifyAPI","Express"],
+      image: posterimage1
     }
   ];
 
